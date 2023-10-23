@@ -24,6 +24,10 @@ body{
     padding-left: 8px;
     
 }
+.logo{
+    text-decoration: none;
+    color: black;
+}
 
 .navcontent{
     display: flex;
