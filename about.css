@@ -1,0 +1,146 @@
+body{
+    /* background-color: white; */
+    overflow-x: hidden;
+    background-image: url(./Assets/img/4885247.jpg);
+    background-blend-mode:multiply;
+    margin: 0%;
+    padding:0%;
+    
+}
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: large;
+    background-color: white;
+}
+.Shopname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    font-family: 'Alice', serif;
+    font-size: 30px;
+    padding-left: 8px;
+    
+}
+
+.navcontent{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    width: 30%;
+    padding-right: 30%;
+}
+
+.navicon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10%;
+    
+}
+.navicon1:hover{
+    color: black;
+    transform: scale(110%);
+    transition: .2s ease;
+
+}
+.navtxt{
+    color: black;
+    text-decoration: none;
+}
+.navtxt:hover{
+    color: black;
+    transform:scale(105%);
+    transition: .2s ease;
+}
+.banner{
+    position: absolute;
+    /* height: 200%; */
+
+}
+.abt1{
+    height: 160px;
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.abt{
+    display: flex;
+    position: relative;
+    color: rgba(255, 255, 255, 0.63);
+    justify-content: center;
+    height: 130%;
+    
+}
+.mid{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around; 
+    padding-left: 5%;
+    padding-right: 5%;   
+}
+.mid1{
+    padding-top: 7%;
+    justify-content: space-between;
+    /* background-color: blue; */
+    width: 150%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img1{
+    display: flex;
+    align-items: end;
+    
+}
+.img1 img{
+    width: 80%;
+    height: 80%;
+    margin-left: 80px;
+}
+.mid2{
+    /* background-color: aqua; */
+    width: 80%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.img2 img{
+    width: 60%;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    background-color: rgba(92, 92, 91, 0.826);
+    padding-left: 10%;
+    margin-top: 10%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+.footer h4{
+    color: white;
+}
+.footer p{
+    color: lightgray;
+    width: 80%;
+}
+.sociallogo{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer button{
+    font-size: 15px;
+    border-radius: 20px;
+    background-color:rgb(180, 62, 101);
+    padding: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+
+
+}
+.footer input{
+    border-radius: 10px;
+    box-shadow: 20px;
+}
