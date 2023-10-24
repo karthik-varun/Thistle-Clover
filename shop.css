@@ -34,8 +34,8 @@ body{
     display: flex;
     align-items:center;
     justify-content: space-around;
-    width: 30%;
-    padding-right: 30%;
+    width: 50%;
+    /* padding-right: 30%; */
 }
 
 .navicon{
@@ -118,6 +118,9 @@ body{
     padding-left: 100px;
     row-gap: 50px;
     overflow: hidden;
+    /* background-color: aqua; */
+    
+    
     
 }
 .container img{
@@ -125,40 +128,52 @@ body{
     height: 310px;
     
 }
+.fle{
+    display: flex;
+    flex-direction: column;
+}
 .cont1{
-    width: 300px;
-    height: 500px;
+    width: 250px;
+    height: 310px;
     overflow: hidden;
 }
 .cont1 img{
     transition: .5s ease-in-out;
+    width: 100%;
 }
 .cont1:hover img{
     transform: scale(1.1);
     cursor: pointer;
     
 }
-.cont1 button{
+.fle h2{
+    display: flex;
+    align-items: center;
+}
+.fle button{
     border-radius: 10px;
     color: black;
     background-color:rgba(177, 177, 31, 0.342);
     transition: 0.2s ease-in-out;
     border: 1px gray solid;
     padding: 5px;
-    height: 40px;
+    height: 35px;
     padding-inline: 10%;
-    margin-left: 15%;
+    margin-left: 10%;
 
 }
-.cont1 button:hover{
+.fle button:hover{
     color: white;
     background-color: rgb(226, 155, 226);
 }
 .endbt{
     display: flex;
-    padding-top: 20px;
+    padding-top: 30px;
+    margin-left: 705px;
     align-items: center;
     justify-content: center;
+    /* background-color: aqua; */
+    width: 100px;
 
 }
 .endbt button{
