@@ -137,7 +137,6 @@ body{
 }
 .mid2cont{
     display: flex;
-    /* background-color: aqua; */
     align-items: center;
     width: 200px;
     justify-content: space-around;
