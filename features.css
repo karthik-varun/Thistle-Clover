@@ -219,6 +219,16 @@ padding-bottom: 30px;
     padding: 10px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(255, 255, 255);
+    border: 0cap;
+    background-color: rgba(198, 17, 17, 0.218);
+
+
+}
+.footer button:hover{
+    background-color: rgb(180, 62, 101);
+    transition: 0.20s;
+    color: white;
+    transform:scale(110%);
 
 
 }
