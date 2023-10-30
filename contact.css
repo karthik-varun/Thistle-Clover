@@ -19,7 +19,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 15%;
+    width: 25%;
     font-family: 'Alice', serif;
     font-size: 30px;
     padding-left: 8px;
@@ -147,7 +147,7 @@ body{
     margin-left: 20%;
 }
 .map{
-    height: 350px;
+    height: 320px;
 }
 .map1{
     width: 100%;

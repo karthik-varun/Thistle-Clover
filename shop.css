@@ -19,7 +19,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 15%;
+    width: 25%;
     font-family: 'Alice', serif;
     font-size: 30px;
     padding-left: 8px;
@@ -115,7 +115,7 @@ body{
     display: grid;
     padding-top: 50px;
     grid-template-columns: repeat(4,2fr);
-    padding-left: 100px;
+    padding-left: 60px;
     row-gap: 50px;
     overflow: hidden;
     /* background-color: aqua; */
@@ -169,11 +169,11 @@ body{
 .endbt{
     display: flex;
     padding-top: 30px;
-    margin-left: 705px;
+    /* margin-left: 705px; */
     align-items: center;
     justify-content: center;
     /* background-color: aqua; */
-    width: 100px;
+    /* width: 100px; */
 
 }
 .endbt button{
@@ -186,7 +186,7 @@ body{
     border: 0cap;
     background-color: rgba(198, 17, 17, 0.218);
 }
-.endbt:hover button{
+.endbt button:hover{
     background-color: rgb(180, 62, 101);
     transition: 0.20s;
     color: white;
