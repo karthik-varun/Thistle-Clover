@@ -199,3 +199,19 @@ body{
     border-radius: 10px;
     box-shadow: 20px;
 }
+@media(max-width:1200px)
+{
+    .Shopname{
+        width: 30%;
+    }
+    .mid{
+        height: 45vh;
+    }
+    .mid1{
+        height: 90%;
+    }
+    .map{
+        height: 30vh;
+    }
+
+}

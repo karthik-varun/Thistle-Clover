@@ -85,9 +85,11 @@ body{
 }
 .carthead{
     display: flex;
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
     justify-content: space-around;
     border-bottom: 2px solid black;
+    /* background-color: aqua; */
 
 }
 .cartdetails{
@@ -108,6 +110,10 @@ padding-bottom: 30px;
     /* border: 1px solid black; */
 
     
+}
+.productname{
+    display:flex ;
+    gap: 30%;
 }
 .cartcon{
     display: flex;
@@ -234,4 +240,37 @@ padding-bottom: 30px;
 .footer input{
     border-radius: 10px;
     box-shadow: 20px;
+}
+@media(max-width:1200px)
+{
+    .Shopname{
+        width: 30%;
+    }
+    
+    .cart{
+        /* background-color: aqua; */
+        width: 40%;
+    }
+    .cartpics{
+        /* width: 20%; */
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+    }
+    .cartpic{
+        width: 100%;
+
+    }
+    .cartcon{
+        /* background-color: aqua; */
+        height: 1%;
+
+    }
+    .productname{
+        display: flex;
+        flex-direction: column;
+        /* margin-bottom: 190%; */
+        background-color: aqua;
+    }
+    
 }
