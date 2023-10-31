@@ -68,13 +68,12 @@ body{
 }
 .image{
     display: flex;
-    position:absolute;
     width: 100vmax;
     overflow: hidden;
     
 }
 .img1{
-    position: relative;
+    /* position: relative; */
     width: 30%;
     justify-content: center;
     align-items: center;
@@ -102,7 +101,6 @@ body{
     }
 }
 .img2{
-    position: relative;
     width: 100%;
     animation:slide 16s infinite;
     
@@ -145,7 +143,7 @@ body{
 }
 .category{
     display: flex;
-    margin-top: 720px;
+    margin-top: 40px;
     justify-content: space-between;
     align-items: center;
     width: 86%;
@@ -359,6 +357,7 @@ body{
     box-shadow: 20px;
 }
 
+
 @keyframes slide{
     0%{
         transform: translateX(0);
@@ -393,7 +392,6 @@ body{
 {
     .Shopname{
         width: 30%;
-        background-color: aqua;
     }
     .navcontent{
         width: 50%;
@@ -443,15 +441,98 @@ body{
     width: 100%;
     height: 100%;
    }
+   
   
    
 }
 @media(max-width:600px)
 {
+    .Navbar{
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+    }
     .Shopname{
-        background-color: aqua;
+        width: 60%;
+        font-size: larger;
+    }
+    .navcontent{
+        width: 100%;
+        
+    }
+    .navicon{
+    
+        width: 60%;
+    }
+    
+    .image{
+        width:200%;
+        
+    }
+
+    .img1txt{
+        line-height: 150%;
+    /* padding-left: 10%; */
+    /* padding-top: 15%; */
+    font-size: 25px;
+    }
+    
+    .img1{
+        /* background-color:aqua; */
+        font-size:10px;
+    }
+    .category{
+        size: 10%;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    .ct1 h2{
+        font-size: medium;
+    }
+    .ct1 img{
+        width: 90%;
+        height: 90%;
+    }
+    
+    .bottom1{
+        width: 100%;
 
     }
+    .bottom2{
+        display: flex;
+        flex-direction: column;
+    }
+    .btxt1{
+        width: 150%;
+    }
+    .btxt2{
+        width: 90%;
+    }
+   .container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+   }
+   .cont1{
+    width: 100%;
+    height: 100%;
+   }
+   .fle{
+    width: 80%;
+   }
+   .fle img{
+    width: 100%;
+    height: 100%;
+   }
+   .footer{
+    display: flex;
+    flex-direction: column;
+   }
+    
+   
+    
+
 
     
 }
