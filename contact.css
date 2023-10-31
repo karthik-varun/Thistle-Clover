@@ -215,3 +215,47 @@ body{
     }
 
 }
+@media(max-width:600px)
+{
+    .Navbar{
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+    .Shopname{
+        width: 60%;
+        font-size: larger;
+    }
+    .navcontent{
+        width: 100%;
+        
+    }
+    .navicon{
+    
+        width: 60%;
+    }
+    .mid{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .mid1{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        margin-top: 30% ;
+    }
+    .mid1 h2 input textarea button{
+        display: flex;
+        flex-direction: column;
+        gap: 90%;
+        
+    }
+    .map1{
+        height: 290px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+       }
+}

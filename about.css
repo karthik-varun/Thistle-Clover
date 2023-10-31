@@ -61,8 +61,11 @@ body{
 }
 .banner{
     position: absolute;
-    /* height: 200%; */
+    
 
+}
+.midsec{
+    margin-top:40px;
 }
 .abt1{
     height: 160px;
@@ -177,4 +180,47 @@ body{
         width: 70%;
         height: 50%;
     }
+}
+@media(max-width:600px)
+{
+    .Navbar{
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+    .Shopname{
+        width: 60%;
+        font-size: larger;
+    }
+    .navcontent{
+        width: 100%;
+        
+    }
+    .navicon{
+    
+        width: 60%;
+    }
+    .midsec{
+        display: flex;
+        flex-direction: column;
+    }
+    .mid{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .mid1{
+        width: 90%;
+    }
+    .mid2{
+        width: 90%;
+    }
+    .img2{
+        margin-top: 20%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+       }
 }

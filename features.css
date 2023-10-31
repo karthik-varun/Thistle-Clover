@@ -270,7 +270,43 @@ padding-bottom: 30px;
         display: flex;
         flex-direction: column;
         /* margin-bottom: 190%; */
-        background-color: aqua;
     }
     
+}
+@media(max-width:600px)
+{
+    .Navbar{
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+    .Shopname{
+        width: 60%;
+        font-size: larger;
+    }
+    .navcontent{
+        width: 100%;
+        
+    }
+    .navicon{
+    
+        width: 60%;
+    }
+    .mid{
+        display: flex;
+        flex-direction: column;
+    }
+    .cart{
+        width: 100%;
+    }
+    .productname{
+        margin-top: 20px;
+    }
+    .tot{
+        width: 90%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+       }
 }
