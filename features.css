@@ -1,6 +1,6 @@
 body{
     /* background-color: white; */
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     background-image: url(./Assets/img/4885247.jpg);
     background-blend-mode:multiply;
     margin: 0%;
@@ -303,7 +303,7 @@ padding-bottom: 30px;
         margin-top: 20px;
     }
     .tot{
-        width: 90%;
+        width: 75%;
     }
     .footer{
         display: flex;
