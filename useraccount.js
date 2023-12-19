@@ -72,7 +72,7 @@ function myfun1(){
     localStorage.setItem('email',email)
     localStorage.setItem('AccessToken',user.accessToken)
     alert('signIn successfully')
-    window.location.href='./index.html'
+    window.location.href='./index1.html'
     // ...
   })
   .catch((error) => {
