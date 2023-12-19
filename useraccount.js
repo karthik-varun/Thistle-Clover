@@ -20,27 +20,37 @@ const firebaseConfig = {
 
   function myfun(){
 
-    let email= document.getElementById('email').value
-    let pass = document.getElementById('password').value
+    let email= document.getElementById('email').value;
+    let pass = document.getElementById('password').value;
+    let confpass = document.getElementById('confirmPassword').value;
+    let errorMessageElement = document.getElementById('errorMessage');
     
 
 
-    if (pass.length<=4){
-      alert('your password is too short')
+    
+    if (email == '' || pass == '' || confpass == ''){
+      errorMessageElement.textContent = 'All fields are mandatory'
+    }
+    else if (pass.length<=4){
+      errorMessageElement.textContent = 'your password is too short'
     }
     else if (pass.length>=14){
-      alert('your password is too long')
+      errorMessageElement.textContent = 'your password is too long'
     }
     
     else if (!/[a-z]/.test(pass)){
-      alert('password contain atleast one letter')
+      errorMessageElement.textContent = 'password contain atleast one letter'
     }
     else if (!/\d/.test(pass)){
-      alert('password conatin atleast one number')
+      errorMessageElement.textContent = 'password conatin atleast one number'
+    }
+    else if (pass !== confpass){
+      errorMessageElement.textContent = 'Passwords do not match.';
     }
     
+    
     else {
-      alert('sucessfull')
+      alert('Account created')
     }
     createUserWithEmailAndPassword(auth, email, pass)
     .then((userCredential) => {
@@ -64,13 +74,16 @@ module.myfun=myfun
 
 function myfun1(){
   let email= document.getElementById('email1').value
-    let pass = document.getElementById('password1').value
+  let pass = document.getElementById('password1').value
+  let errorMessageElement = document.getElementById('errorMessage');
+
+  
   signInWithEmailAndPassword(auth, email, pass)
   .then((userCredential) => {
     // Signed in 
     const user = userCredential.user;
-    localStorage.setItem('email',email)
-    localStorage.setItem('AccessToken',user.accessToken)
+    localStorage.setItem('email',email);
+    localStorage.setItem('AccessToken',user.accessToken);
     alert('signIn successfully')
     window.location.href='./index1.html'
     // ...
@@ -78,6 +91,8 @@ function myfun1(){
   .catch((error) => {
     const errorCode = error.code;
     const errorMessage = error.message;
+    errorMessageElement.textContent = errorMessage;
+
   });
 }
 

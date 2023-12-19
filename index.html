@@ -33,19 +33,30 @@
    <div class="signcol1">
      <h2>Sign up</h2>
      <div class="inputs">
-        <input id="email" type="email" placeholder="Enter your E-mail">
-        <input id="password" type="password" placeholder="Enter your password">
+      <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Enter your E-mail" required>
+      <label for="password">Password</label>  
+        <input id="password" type="password" placeholder="Enter your password" required>
+      <label for="confirmPassword">Confirm password</label>
+      <input id="confirmPassword" type="password" placeholder="confirm your password" required>
+
+      
+
        
 
      </div>   
      <div class="button">
       <button onclick="module.myfun()">Sign up</button>
+      <div class="acclink">
+        <a href="./signinaccount.html"><button>Already Our Member</button> </a>
+       </div>
+    </div>
+    <div>
+      <p class="error-message" id="errorMessage"></p>
     </div>
    </div>
    
    </div>
-   <div class="acclink">
-    <a href="./signinaccount.html"><button>Already Our Member</button> </a>
-   </div>
+  
 </body>
 </html>

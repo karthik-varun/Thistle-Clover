@@ -33,18 +33,24 @@
    <div class="signcol1">
      <h2>Sign in</h2>
      <div class="inputs">
-        <input id="email1" type="email" placeholder="Enter your E-mail">
-        <input id="password1" type="password" placeholder="Enter your password">
+      <label for="email1">Email</label>
+        <input id="email1" type="email" placeholder="Enter your E-mail" required>
+        <label for="password1">Password</label>
+        <input id="password1" type="password" placeholder="Enter your password" required>
        
      </div>   
      <div class="button">
         <button onclick="module.myfun1()">Sign in</button>
+        <div class="acclink">
+          <a href="./index.html"><button>Create your Thistle & Clover Account</button> </a>
+         </div>
      </div>
+     <div>
+      <p class="error-message" id="errorMessage"></p>
+    </div>
    </div>
   
    </div>
-   <div class="acclink">
-    <a href="./index.html"><button>Create your Thistle & Clover Account</button> </a>
-   </div>
+  
 </body>
 </html>
