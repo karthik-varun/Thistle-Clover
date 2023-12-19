@@ -115,3 +115,60 @@ align-items: center;
     transform:scale(110%);
 
 }
+
+@media(max-width:1200px)
+{
+    .Shopname{
+        width: 100%;
+    }
+    .signcol1{
+        height: 80%;
+        width: 80%;
+        font-size: larger;
+    }
+    .inputs input{
+        font-size: larger;
+    }
+    .button{
+        width: 40%;
+    }
+    .button button{
+        height: 40%;
+        font-size: larger;
+        align-items: center;
+        justify-content: center;
+    }
+    .acclink a button{
+        font-size: larger;
+    }
+
+}
+@media(max-width:600px)
+{
+   
+    .Shopname{
+        width: 60%;
+        font-size: larger;
+    }
+    .signcol1{
+        height: 80%;
+        width: 80%;
+        font-size: small;
+    }
+    .inputs input{
+        font-size: small;
+    }
+    .button{
+        width: 40%;
+    }
+    .button button{
+        height: 40%;
+        font-size: small;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .acclink a button{
+        font-size: small;
+    }
+}
