@@ -1,0 +1,57 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.Shopname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Alice', serif;
+    font-size: 30px;
+    padding-left: 8px;
+    /* background-color: aqua; */
+    
+}
+.login{
+     background-color:bisque;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     height: 480px;
+     gap: 30px;
+}
+#email-id{
+    height: 30px;
+    width: 200px;
+    border: 0cap;
+    border-radius: 10px;
+
+}
+#email-id:hover{
+    background-color:rgba(255, 255, 255, 0.874) ;
+    transition: 0.10s ease;
+}
+#pass{
+    height: 30px;
+    width: 200px;
+    border: 0cap;
+    border-radius: 10px;
+}
+#pass:hover{
+    background-color:rgba(255, 255, 255, 0.874) ; 
+    transition: 0.10s ease;
+}
+.but button{
+    height: 30px;
+    width: 70px;
+    border-style: double;
+    border-radius: 40px;
+
+}
+.but button:hover{
+    color:darkviolet;
+    transition: 0.10s ease;
+}

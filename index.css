@@ -45,14 +45,31 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 10%;
+    width: 30%;
+    /* background-color: blue; */
     
 }
+
+
 .navicon1:hover{
     color: black;
     transform: scale(110%);
     transition: .2s ease;
 
+}
+.searchicon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10%;
+    /* background-color: aqua; */
+    /* width: 100%; */
+}
+.searchicon:hover{
+    color: black;
+    transform: scale(110%);
+    transition: .2s ease;
+    
 }
 .navtxt{
     color: black;
@@ -228,6 +245,10 @@ body{
     color: rgba(255, 255, 255, 0.686);
     transform:scale(110%);
 
+}
+.search{
+    color: aqua;
+    
 }
 
 .container{
