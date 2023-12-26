@@ -505,7 +505,6 @@ body{
     .img2{
         width: 100%;
         height: 30vh;
-        background-color: aqua;
     }
 
     .img1txt{
@@ -558,10 +557,15 @@ body{
       
         
     }
-    .btxt1{
-        width: 120%;
+    .btxt{
         display: flex;
-        justify-content: space-around;
+    }
+    .btxt1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
     }
     
     .btxt2{
