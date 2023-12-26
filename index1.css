@@ -78,6 +78,12 @@ body{
 
 
 }
+.acclog:hover{
+    color: black;
+    transform: scale(110%);
+    transition: .2s ease; 
+}
+
 .navtxt:hover{
     color: black;
     transform:scale(105%);
@@ -85,10 +91,11 @@ body{
 }
 .image{
     display: flex;
-    width: 100vmax;
+    width: 98vw;
     overflow: hidden;
     
 }
+
 .img1{
     /* position: relative; */
     width: 30%;
@@ -103,7 +110,7 @@ body{
     
 }
 
-@keyframes txtslide{
+/* @keyframes txtslide{
     0%{
        transform: translatex(0%);
     }
@@ -116,10 +123,11 @@ body{
     100%{
         transform: translateY(-100%);
     }
-}
+} */
 .img2{
     width: 100%;
     animation:slide 16s infinite;
+    
     
 }
 
@@ -127,13 +135,13 @@ body{
     position: absolute;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    width: 90%;
     color: white;
     line-height: 200%;
     padding-left: 10%;
     padding-top: 15%;
     font-size: 25px;
+    
 
 
 }
@@ -195,16 +203,19 @@ body{
 .bottom{
     padding-top: 60px;
     align-items: center;
-    padding-left: 100px;
+    /* padding-left: 100px; */
 }
 .bottom1{
     display: flex;
     align-items: center;
-    padding-right: 60%;
+    justify-content: center;
+    /* padding-right: 60%; */
 }
 .bottom2{
     display: flex;
     align-items: center;
+    /* background-color: aqua; */
+    justify-content: space-around;
 }
 .btxt{
     cursor: pointer;
@@ -487,19 +498,20 @@ body{
     }
     
     .image{
-        width:200%;
+        width:100%;
+        height: 30vh;
         
     }
     .img2{
-        width: 50%;
+        width: 100%;
+        height: 30vh;
+        background-color: aqua;
     }
 
     .img1txt{
         line-height: 150%;
-    /* padding-left: 10%; */
-    /* padding-top: 15%; */
-    font-size: 25px;
-    /* background-color: aqua; */
+        font-size: 25px;
+        /* background-color: aqua; */
     }
     .img button{
         margin-bottom: 50px;
@@ -507,8 +519,12 @@ body{
     }
     
     .img1{
-        /* background-color:aqua; */
+        width: 100%;
         font-size:10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
     .img{
         width: 60%;
@@ -528,22 +544,31 @@ body{
         height: 90%;
     }
     
-    .bottom1{
+    .bottom{
         width: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+        
 
     }
     .bottom2{
         display: flex;
         flex-direction: column;
+      
+        
     }
     .btxt1{
-        width: 150%;
+        width: 120%;
+        display: flex;
+        justify-content: space-around;
     }
+    
     .btxt2{
         width: 90%;
     }
    .container{
-    width: 90%;
+    width: 84%;
     display: flex;
     flex-direction: column;
    }
