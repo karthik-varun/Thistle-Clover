@@ -15,6 +15,11 @@ body{
     background-color: white;
     
 }
+.cartpics{
+    /* background-color: aqua; */
+    border: 1px solid rgba(105, 105, 105, 0.337);
+
+}
 .Shopname{
     display: flex;
     align-items: center;
@@ -76,19 +81,12 @@ body{
 
 
 }
-.cart{
-    /* display: flex; */
-    /* position: absolute; */
-    /* padding-left: 90px; */
-    border: 1px solid rgba(105, 105, 105, 0.337);
-    
-}
 .carthead{
     display: flex;
-    width: 90%;
-    margin-left: 5%;
+    width: 100%;
+    /* margin-left: 5%; */
     justify-content: space-around;
-    border-bottom: 2px solid black;
+    border: 1px solid black;
     /* background-color: aqua; */
 
 }
